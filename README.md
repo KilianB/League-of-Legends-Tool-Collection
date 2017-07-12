@@ -42,13 +42,13 @@ Custom on the fly gradient
 Mouse movement
 
 ## League Chat To Teamspeak Text To Speech
-
-.
-.
-.
+Converts any text send to the bot via the league chat to a speech output in teamspeak. The google api is queried to convert the text to speech. Java is used to connect to the xmpp server and relay the information to the sinus bot using thr ts query account and a javascript attention is used to filters the request for the different accent requests.
 
 <p align="center">
-<image src="https://user-images.githubusercontent.com/9025925/28114849-e20d3e7a-6702-11e7-9a63-b376708b9c08.png" />
+<img src="https://user-images.githubusercontent.com/9025925/28121855-b910d4fe-671c-11e7-8dcc-4674506bb1e5.png" />
+</p>
+<p align="center">
+<img src="https://user-images.githubusercontent.com/9025925/28114849-e20d3e7a-6702-11e7-9a63-b376708b9c08.png" />
 </p>
 
 ## Auto login and decay manager
