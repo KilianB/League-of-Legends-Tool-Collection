@@ -87,7 +87,7 @@ Mouse movement
 
 
 
-## APM And Mouse Distance Ovrlay
+## APM And Mouse Distance Overlay
 .
 .
 .
@@ -238,10 +238,10 @@ public HelloWorldModule(ModuleManager moduleManager) {
 	super(moduleManager, "Module Long Name", "Module Short Name");
 	this.managerPanel = new HelloWorldPane(shortName);
 			
-	//Suggest every module which implements GLobalKeyListener to halt operation
+	//Suggest every module which implements GlobalKeyListener to halt operation
 	moduleManager.notifyModuleGeneric(GlobalKeyListener.class, this, ModuleEvent.HALT_OPERATION, null);
 		
-	//Suggest the key board ovrlay module to halt operation
+	//Send a custom event and payload to the keyboard overlay module
 	moduleManager.notifyModule(KeyBoardMouseOverlayModule.class, this, ModuleEvent.CUSTOM_EVENT, new Object[] {"Custom value"});	
 }
 ```
