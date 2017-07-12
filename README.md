@@ -1,6 +1,6 @@
 # League-of-Legends-Tool-Collection
 
-League of legends tool colelction as seen in this video:
+League of legends tool collection of scripts I have written over the years.
 
 <p align="center">
    <img height="700" src="https://user-images.githubusercontent.com/9025925/28111940-835a3172-66f7-11e7-9890-846564d63f0b.png"/>
@@ -82,9 +82,16 @@ Mouse movement
 .
 
 ## League Group Chat Mirror Bot
-.
-.
-.
+. mirrors all messages written to the bot to all users on the friendlist
+. global and local mute list
+. moderator commands to bann users and filter keywords
+. game search feature. !lf ELO (MODIFIER) MESSAGE will send a message to every person joining the chatroom (comming online or leaving a game). Once !full is called, the lobby owner joins the queue or the lobby is destroyed the search is deemed invalid.
+. Whisper feature for members
+. Auto accepts friend requests
+. Multi bot and region support allows chats between different regions, and gets rid of chat room size limitations.
+
+http://liga-der-gentlemen.de/index.php/Thread/2965-Gruppensuche-2-0
+
 
 
 ### Modular Management Gui
