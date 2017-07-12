@@ -23,6 +23,9 @@ A sample rundown of the faetures can be found in this youtube video:
 
 ![thumb](https://user-images.githubusercontent.com/9025925/28111814-16f7ee3e-66f7-11e7-940c-7c386c2630ca.jpg)
 
+<p align="center">
+<image src="https://user-images.githubusercontent.com/9025925/28114781-920981c2-6702-11e7-8945-37dd82afefe7.png" />
+</p>
 
 ## Heatmap
 
@@ -43,6 +46,10 @@ Mouse movement
 .
 .
 .
+
+<p align="center">
+<image src="https://user-images.githubusercontent.com/9025925/28114849-e20d3e7a-6702-11e7-9a63-b376708b9c08.png" />
+</p>
 
 ## Auto login and decay manager
 
@@ -71,10 +78,19 @@ Mouse movement
 .
 .
 .
+<p align="center">
+<image src="https://user-images.githubusercontent.com/9025925/28114792-9cd2a282-6702-11e7-8eda-00970cb859ea.png" />
+</p>
+
+
+
 ## APM And Mouse Distance Ovrlay
 .
 .
 .
+<p align="center">
+<image src="https://user-images.githubusercontent.com/9025925/28114833-d01f1436-6702-11e7-9caa-a7d854c84fbf.png" />
+</p>
 
 ## Keyboard And Mouse Overlay
 .
