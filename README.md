@@ -1,6 +1,6 @@
 # League-of-Legends-Tool-Collection
 
-League of legends tool collection of scripts I have written over the years.
+League of legends tool collection of scripts I have written over the years. All modules are written in java with the help of quering some external apis and looking at the log files the client produces. No memory reading or process hooking takes place. All windows are simple transparent overlay windows or windows overlayed with OBS Studio's chroma key filter.
 
 <p align="center">
    <img height="700" src="https://user-images.githubusercontent.com/9025925/28111940-835a3172-66f7-11e7-9890-846564d63f0b.png"/>
@@ -52,10 +52,13 @@ Mouse movement
 </p>
 
 ## Auto login and decay manager
+- Displays the days until an account will deacay in every queue. 
+- A click in the login cell will terminate the currently open lol client process, open a new instance 
+	and move the mouse to the username and password field to type in the correct values as well as submitting the query with enter
 
-.
-.
-.
+<p align="center">
+<img src="https://user-images.githubusercontent.com/9025925/28115647-122bee00-6706-11e7-83de-51bee32b4f46.jpg" />
+</p>
 
 
 ## Automatic rune and mastery switcher based on picked champion
