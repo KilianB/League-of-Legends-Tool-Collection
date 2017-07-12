@@ -119,10 +119,10 @@ public class HelloWorldModule extends Module /* optional */ implements GlobalKey
 		super(moduleManager, "Module Long Name", "Module Short Name");
 		this.managerPanel = new HelloWorldPane(shortName);
     
-    //Do we want to work with apis? Simply create an new instance whenever needed
-    RiotAPI riot = new RiotAPI();
-    OpGGAPI = opGG = new OpGGAPI();
-    GoogleTTS tts = new GoogleTTS();
+    		//Do we want to work with apis? Simply create an new instance whenever needed
+    		RiotAPI riot = new RiotAPI();
+   		 OpGGAPI = opGG = new OpGGAPI();
+    		GoogleTTS tts = new GoogleTTS();
 	}
 
 	/**
