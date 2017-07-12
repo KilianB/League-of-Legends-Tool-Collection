@@ -216,17 +216,15 @@ Modules have the ability to send requests to other modules without explizitly kn
 which keep track of keystrokes to halt operation for the duration the password is typed in.
 ```java
 public HelloWorldModule(ModuleManager moduleManager) {
-		super(moduleManager, "Module Long Name", "Module Short Name");
-		this.managerPanel = new HelloWorldPane(shortName);
+	super(moduleManager, "Module Long Name", "Module Short Name");
+	this.managerPanel = new HelloWorldPane(shortName);
+			
+	//Suggest every module which implements GLobalKeyListener to halt operation
+	moduleManager.notifyModuleGeneric(GlobalKeyListener.class, this, ModuleEvent.HALT_OPERATION, null);
 		
-		
-		//Suggest every module which implements GLobalKeyListener to halt operation
-		moduleManager.notifyModuleGeneric(GlobalKeyListener.class, this, ModuleEvent.HALT_OPERATION, null);
-		
-		//Suggest the key board ovrlay module to halt operation
-		moduleManager.notifyModule(KeyBoardMouseOverlayModule.class, this, ModuleEvent.CUSTOM_EVENT, new Object[] {"Custom value"});
-		
-	}
+	//Suggest the key board ovrlay module to halt operation
+	moduleManager.notifyModule(KeyBoardMouseOverlayModule.class, this, ModuleEvent.CUSTOM_EVENT, new Object[] {"Custom value"});	
+}
 ```
 
 
