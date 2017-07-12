@@ -121,7 +121,7 @@ public class HelloWorldModule extends Module /* optional */ implements GlobalKey
     
     		//Do we want to work with apis? Simply create an new instance whenever needed
     		RiotAPI riot = new RiotAPI();
-   		 OpGGAPI = opGG = new OpGGAPI();
+   		OpGGAPI = opGG = new OpGGAPI();
     		GoogleTTS tts = new GoogleTTS();
 	}
 
