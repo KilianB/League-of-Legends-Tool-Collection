@@ -1,4 +1,5 @@
-#Update
+# Update
+
 While waiting for riot to respond to request regarding viability and due to encription of their chat service this project is temporarily halted.
 
 # League-of-Legends-Tool-Collection
