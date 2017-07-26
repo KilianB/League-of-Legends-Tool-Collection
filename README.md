@@ -1,3 +1,6 @@
+#Update
+While waiting for riot to respond to request regarding viability and due to encription of their chat service this project is temporarily halted.
+
 # League-of-Legends-Tool-Collection
 
 League of legends tool collection of scripts I have written over the years. All modules are written in java with the help of quering some external apis and looking at the log files the client produces. No memory reading or process hooking takes place. All windows are simple transparent overlay windows or windows overlayed with OBS Studio's chroma key filter.
